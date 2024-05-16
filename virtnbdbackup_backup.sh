@@ -1,7 +1,7 @@
 #!/bin/bash
 # Original project https://github.com/abbbi/virtnbdbackup?tab=readme-ov-file#transient-virtual-machines-checkpoint-persistency
 
-BACKUP_PATH="/containers/libvirt-vm-backup/"
+BACKUP_PATH="/tmp/backupset/"
 
 # check count of arguments
 if [ $# -lt 2 ]; then
